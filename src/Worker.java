@@ -21,4 +21,9 @@ public class Worker {
     public void setSalary(BigDecimal salary) {
         this.salary = salary;
     }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }
