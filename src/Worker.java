@@ -16,4 +16,12 @@ public class Worker {
     public BigDecimal getSalary() {
         return salary;
     }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setSalary(BigDecimal salary) {
+        this.salary = salary;
+    }
 }
