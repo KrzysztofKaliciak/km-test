@@ -8,4 +8,12 @@ public class Worker {
         this.name = name;
         this.salary = salary;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public BigDecimal getSalary() {
+        return salary;
+    }
 }
